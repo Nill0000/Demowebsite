@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>De Royal Salmon Bakery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>De Royal Salmon Bakery</h1>
+  <p>Fresh Cakes, Pastries & Sweets</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+  <h2>Welcome to Our Bakery</h2>
+  <p>Delicious handmade bakery items made fresh every day.</p>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+  <div class="product-container">
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250" alt="Chocolate Cake">
+      <h3>Chocolate Cake</h3>
+      <p>Rich and creamy chocolate layered cake.</p>
+      <span>$15</span>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250" alt="Cupcakes">
+      <h3>Cupcakes</h3>
+      <p>Soft and sweet cupcakes with buttercream frosting.</p>
+      <span>$8</span>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250" alt="Donuts">
+      <h3>Donuts</h3>
+      <p>Freshly fried donuts with various toppings.</p>
+      <span>$5</span>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250" alt="Bread">
+      <h3>Fresh Bread</h3>
+      <p>Daily baked soft and healthy bread.</p>
+      <span>$3</span>
+    </div>
+
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We are a local bakery dedicated to providing fresh and high-quality baked goods. Our recipes are crafted with love and the finest ingredients.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: info@deroyalsalmon.com</p>
+  <p>Phone: +880-123-456789</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 De Royal Salmon Bakery</p>
+</footer>
+
+</body>
+</html>
+
+/* ================= CSS FILE (styles.css) ================= */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffaf5;
+}
+
+header {
+  background: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: #333;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #8b0000;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: url('https://via.placeholder.com/1200x400') no-repeat center/cover;
+  color: white;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product span {
+  color: #8b0000;
+  font-weight: bold;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
